@@ -6,6 +6,7 @@ import { FiArrowRight } from "react-icons/fi"
 
 const Home = () => {
   return (
+    <section id="#">
     <div >
       <Navbar />
       <div className="home-banner-container">
@@ -26,6 +27,7 @@ const Home = () => {
         </div>
       </div> 
     </div>
+    </section>
   )
 }
 
